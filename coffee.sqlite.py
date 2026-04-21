@@ -33,5 +33,5 @@ VALUES (?, ?, ?, ?, ?, ?)
 conn.commit()
 conn.close()
 
-print("✅ База данных coffee.sqlite успешно создана!")
-print("📊 Добавлено записей:", len(coffee_data))
+print("База данных coffee.sqlite успешно создана!")
+print("Добавлено записей:", len(coffee_data))
